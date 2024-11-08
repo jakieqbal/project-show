@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    border: border-box;      
+}
+.navbar{
+    height: 60px;
+    background-color:#4DB1FF;
+
+    display: flex;
+}
+.nav-logo{
+    height:67px;
+    width: 125px;
+    align-items: center;
+    margin-left: 8px;
+}
+.logo{
+    background-image: url("learnweb.png");
+    background-size: cover;
+    align-items: center;
+    color: beige;
+    height: 60px;
+    width: 100%;
+}
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid 
+    hsl(0, 0%, 0%);
+    border-radius: 10px;
+}
+.nav-search{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 800px;
+    height: 60px;
+    margin-left: 100px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+.search-input{
+    width:700px;
+    align-items: center;
+    font-size:2.5rem;
+    margin-left: 50px;
+    margin-bottom:9px ;
+    display: flex;
+    background-color:#FFFFFF;
+    color: #77838F;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+}
+.login{
+    display: flex;
+    width: 300px;
+    height: 70px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 100px;
+}
+.lin{
+    height: 50px;
+    width: 110px;
+    color:#191835;
+    background-color: #FFFFFF;
+    font-size: 1.7rem;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+.sup{
+    height: 50px;
+    width: 120px;
+    color: #FFFFFF;
+    background-color:#191835;
+    font-size: 1.7rem;
+    border-radius:50px ;
+    margin-bottom: 10px;
+}
+.magnifier{
+    width: 60px;
+    font-size: 2.5rem;
+    margin-bottom: 9px;
+    background-color:#FFFFFF;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+}
+.user_icon{
+    height: 50px;
+    width: 50px;
+    font-size: 2.8rem;
+    align-items: center;
+    background-color:#FFFFFF;
+    margin-top: 3px;
+    margin-right: 8px;
+    padding-left: 8px;
+    border-radius: 10px;    
+}
+.container{
+    height: 500px;
+    width: 900px;
+    background-image:url("imageslider1.jpg") ;
+    background-position: center ;
+    background-size: 100%;
+    border: 5px solid #4DB1FF;
+    animation-name: myanim;
+    animation-duration:30s;
+    animation-timing-function:linear ;
+    animation-iteration-count: infinite;
+    margin:auto;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+@keyframes myanim{
+    0%{background-image: url(imageslider1.jpg) ;}
+    25%{background-image: url(imageslider2.jpg) ;}
+    50%{background-image: url(imageslider4.jpg) ;}
+    75%{background-image: url(imageslider5.jpg) ;}
+}
+.homecontainer{
+    display: flex;
+}
+.image1{
+    height: 370px;
+    width:auto;
+    margin:auto;
+    margin-top: 75px;
+    border: 10px solid #557B83 ;
+}
+.image2{
+    height: 400px;
+    width: auto;
+    margin-top: 10px;
+    margin-left:7px ;
+    border: 10px solid #557B83 ;
+}
+.image3{
+    height: 400px;
+    width: auto;
+    margin-top: 10px;
+    margin-left: 80px;
+    border: 10px solid #557B83 ;
+}
+.nav{
+    width: 100%;
+    background:orange;
+    
+}
+.homebar{
+    font-size: 40px;
+    border: 2px solid rgb(253, 63, 0);
+    background-color: #cddcec;
+    margin-top: 3px;
+}
+.home{
+     margin-left: 20px;
+}
+.about{
+     margin-left: 1000px;
+}
+.course{
+    background-color:#4BB4DE;
+    height: 500px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: 1.5px solid blueviolet;
+}
+.content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.heading{
+    font-size: 4rem;
+    margin-left: 350px;
+    padding-top: 30px;
+    color:#FFFFFF; 
+    -webkit-text-stroke: 1px #191835 ;
+}
+.subject{
+    height:260px ;
+    width:300px ;
+    background-color:#FFFFFF;
+    border: 3.5px solid rgb(253, 63, 0);
+    border-radius:20px ;
+    margin-top: 70px;
+}
+.headingcourse{
+    font-size: 1.9rem;
+    color: #191835;
+    border-bottom: 3px solid #345da7;
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 5px;
+}
+.img4{
+    height: 160px;
+    width: auto;
+    margin-left: 8px;
+}
+.img5{
+    height: 160px ;
+    width: auto;
+    margin-left: 30px;
+}
+.click{
+    font-size: 1.5rem;
+    margin-left: 130px;  
+}

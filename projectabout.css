@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    border: border-box;   
+}
+.navbar{
+    height: 60px;
+    background-color:#4DB1FF;
+    color: black;
+    display: flex;
+}
+.nav-logo{
+    height:67px;
+    width: 125px;
+    align-items: center;
+    margin-left: 8px;
+}
+.logo{
+    background-image: url("learnweb.png");
+    background-size: cover;
+    align-items: center;
+    color: beige;
+    height: 60px;
+    width: 100%;
+}
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid 
+    hsl(0, 0%, 0%);
+    border-radius: 10px;
+}
+.nav-search{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 800px;
+    height: 60px;
+    margin-left: 100px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+.search-input{
+    width:700px;
+    align-items: center;
+    font-size:2.5rem;
+    margin-left: 50px;
+    margin-bottom:9px ;
+    display: flex;
+    background-color:#FFFFFF;
+    color: #77838F;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+}
+.login{
+    display: flex;
+    width: 300px;
+    height: 70px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 100px;
+}
+.lin{
+    height: 50px;
+    width: 110px;
+    color:#191835;
+    background-color: #FFFFFF;
+    font-size: 1.7rem;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+.sup{
+    height: 50px;
+    width: 120px;
+    color: #FFFFFF;
+    background-color:#191835;
+    font-size: 1.7rem;
+    border-radius:50px ;
+    margin-bottom: 10px;
+}
+
+
+.magnifier{
+    width: 60px;
+    font-size: 2.5rem;
+    margin-bottom: 9px;
+    background-color:#FFFFFF;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+}
+.user_icon{
+    height: 50px;
+    width: 50px;
+    font-size: 2.8rem;
+    align-items: center;
+    background-color:#FFFFFF;
+    margin-top: 3px;
+    margin-right: 8px;
+    padding-left: 8px;
+    border-radius: 10px;
+    
+}
+.homebar{
+    font-size: 40px;
+    border: 2px solid rgb(253, 63, 0);
+    background-color: #cddcec;
+    margin-top: 5px;
+}
+.nav{
+    width: 100%;
+    background:orange;
+    
+}
+.home{
+     margin-left: 20px;
+}
+.about{
+     margin-left: 1000px;
+}
+.aboutinfo{
+    height:1200px ;
+    width:fit-content ;
+    background-color:rgb(215, 232, 232);
+    margin: auto;
+    margin-top: 5px;
+}
+.heading{
+    font-size: 4.5rem;
+    color:#345DA7;
+    margin-left:600px;
+}
+.para{
+    font-size: 2rem;
+    margin: 60px 100px 10px 100px;
+    color:rgb(0, 56, 74);
+    width: fit-content;
+    height: 600px; 
+    background-color:rgb(215, 232, 232); 
+}
+.heading2{
+    font-size: 1.8rem;
+    margin-left: 500px;
+    color:blueviolet;
+}
+.heading3{
+    font-size: 2.5rem;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+    color:rgb(253, 126, 0) ;
+}
+.heading4{
+    font-size: 2.3rem;
+    margin-top: 80px;
+    
+}
